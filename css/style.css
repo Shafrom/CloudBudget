@@ -510,6 +510,9 @@ margin-right: 10px;
   display: block;
   margin-bottom: 24px;
 }
+.contact__phoneNum::placeholder {
+  color: rgba(19, 39, 67, 0.5);
+}
 .selectServ {
   width: 100%;
   border-radius: 6px;
@@ -521,7 +524,16 @@ margin-right: 10px;
   font-size: 16px;
   display: block;
 }
-
+.contact__submit {
+  background-color: #ED4C5C;
+  padding: 16px 32px 15px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
 .Select {
   width: 100%;
   border: 1px solid #333333;
