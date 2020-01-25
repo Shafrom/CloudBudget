@@ -418,9 +418,7 @@ margin-right: 10px;
   justify-content: space-between;
   position: relative;
 }
-.statement__slidesContainer1 {
-  /* position: relative; */
-}
+
 .statement__slidesContainer2 {
   width: 80%;
   position: absolute;
