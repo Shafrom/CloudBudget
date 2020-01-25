@@ -533,6 +533,7 @@ margin-right: 10px;
   outline: none;
   cursor: pointer;
   border: none;
+  text-transform: uppercase;
 }
 .Select {
   width: 100%;
@@ -597,4 +598,97 @@ margin-right: 10px;
 }
 .Select__item:hover {
   color: black;
+}
+
+/* СТИЛИ ДЛЯ БЛОКА FOOTER */
+
+.footer {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #FAFAFA;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.footer__item {
+  width: 25%;
+}
+.footer__title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 35px;
+  text-align: left;
+}
+.footer__adddress {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #101010;
+  padding-right: 120px;
+}
+.footer__serviceMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__menuItem {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 3px;
+}
+.footer__contacts {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+.footer__email {
+  color: #101010;
+  margin-bottom: 12px;
+}
+.footer__tel {
+  color: #121212;
+  margin-bottom: 22px;
+}
+.footer__socialLinks {
+  display: flex;
+  justify-content: start;
+}
+.link__facebook {
+  height: 17px;
+  margin-right: 16px;
+}
+.link__linkedin {
+  height: 17px;
+  margin-right: 16px;
+}
+.link__twitter {
+  height: 17px;
+  margin-right: 16px;
+}
+.footer__cardsPic {
+  width: 216px;
+}
+.footer__copyright {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
 }
